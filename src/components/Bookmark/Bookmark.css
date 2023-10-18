@@ -1,0 +1,40 @@
+.total-reading-time
+{
+    color: #6047EC;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 15px;
+    border: 1px solid #6047EC;
+    border-radius: 8px;
+    background: rgba(96, 71, 236, 0.10);
+}
+
+.bookmarks-container
+{
+    position: sticky;
+    top: 10px;
+}
+
+.bookmark-details
+{
+    height: 300px;
+    overflow: auto;
+    padding: 20px;
+    margin-top: 24px;
+    border-radius: 8px;
+    background: rgba(17, 17, 17, 0.05);
+}
+
+.added-bookmark
+{
+    background: #FFF;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 16px 0;
+    
+}
+.added-bookmark h6
+{
+    margin: 0;
+    font-size: 13px;
+}

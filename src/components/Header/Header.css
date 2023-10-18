@@ -1,0 +1,62 @@
+/* Navbar style */
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(17, 17, 17, 0.15);
+    margin-bottom: 32px;
+    padding-bottom: 10px;
+}
+/* Website title */
+nav h2 
+{
+    font-size: 20px;
+}
+nav a 
+{
+    font-weight: 500;
+    color: black;
+    text-decoration: inherit;
+    margin-left: 15px;
+}
+nav a:hover 
+{
+    color: orange;
+}
+
+.navbar-details
+{
+    display: flex;
+    align-items: center;
+    gap:50px;
+}
+
+/* User image style */
+.user-img
+{
+    border-radius: 100%;
+    width: 50px;
+    height: 45px;
+}
+
+
+/* Responsive */
+@media screen and (max-width:576px)
+{
+    nav
+    {
+        display: grid;
+        text-align: center;
+    }
+
+    .navbar-details
+    {
+        display: grid;
+        
+    }
+    .navbar-details img
+    {
+        margin: 0 auto;
+    }    
+}

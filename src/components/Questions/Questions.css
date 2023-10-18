@@ -1,0 +1,30 @@
+.question-container
+{
+    background-color: lightblue;
+    border-radius: 15px;
+    padding: 30px;
+    max-width: 600px;
+    margin: 40px auto;
+}
+/* Questions style */
+.question-container h3
+{
+    text-align: center;
+    background-color: lightcoral;
+    padding: 15px;
+    border-radius: 15px;
+}
+/* Answers style */
+.question-container p
+{
+    background-color: lightgreen;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 15px;
+    max-width: 500px;
+}
+
+.question
+{
+    margin-bottom: 20px;
+}

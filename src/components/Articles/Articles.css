@@ -1,0 +1,20 @@
+.article-container
+{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 15px;
+}
+
+div h3
+{
+    margin: 0;
+}
+
+/*Mobile responsive */
+@media screen and (max-width:576px)
+{
+    .article-container
+    {
+        display: block;
+    }
+}

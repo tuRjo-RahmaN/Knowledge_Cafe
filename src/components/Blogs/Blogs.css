@@ -1,0 +1,90 @@
+.blogs-container
+{
+    margin-bottom: 40px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgba(17, 17, 17, 0.10);
+}
+
+/* Cards top image */
+.background
+{
+    width: 80%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.blogs-details
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.blogs-details p
+{
+    color: rgba(17, 17, 17, 0.60);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.blogs-info
+{
+    display: flex;
+    align-items: center;
+}
+
+/* Image of bloger */
+.bloger-img
+{
+    border-radius: 100%;
+    width: 50px;
+    height: 45px;
+    margin-right: 10px;
+}
+
+/* Name of bloger */
+.bloger-name
+{
+    margin: 0;
+    font-weight: 700;
+}
+
+/* Blog Publish date */
+.publish-date
+{
+    margin: 0;
+}
+
+.reading-time
+{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Bookmark icon */
+.reading-time a
+{
+    color: black;
+}
+.reading-time a :hover
+{
+    color: chartreuse;
+}
+
+/* Hash tags */
+.tags
+{
+    color: rgba(17, 17, 17, 0.60);
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+/* mark_as_read */
+.blog-status
+{
+    color: #6047EC;
+    font-size:15px;
+    font-weight: 600;
+    text-decoration-line: underline;
+}
